@@ -1,0 +1,152 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icones{
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.car-icon{
+  height: 100px;
+  width: 28px;
+  margin: 10px 0 10px 0;
+  max-width: 100%;
+}
+.localisation{
+  height: 90px;
+  width: 28px;
+}
+.unlimited{
+  height: 20px;
+  width: 48px;
+  margin: 15px 0 15px 0;
+  max-width: 100%;
+}
+.slide{
+  width: 500px;
+  height: 650px;
+  margin-left: 750px;
+}
+.table-home{
+  background-image: url(./images/polo.jpg);
+}
+.description{
+  display: flex;
+  justify-content: space-around;
+}
+.car-home{
+  display: flex;
+  width: 700px;
+}
+.agenda{
+  text-align: center;
+  width: 500px;
+  background-color: white;
+}
+.car-icon1{
+  display: flex;
+  align-items: flex-start;
+}
+.wallet-icon{
+  display: flex;
+  align-items: flex-start;
+}
+.clock-icon{
+  display: flex;
+  align-items: flex-start;
+}
+.drive-icon{
+  display: flex;
+  align-items: flex-start;
+}
+.icon-bottom{
+  display: flex;
+  flex-wrap: wrap;
+}
+.slide-top{
+  width: 1400px;
+  margin-left: 0px;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+    border-radius: 20px;
+}
+.me-auto{
+  display: flex;
+  justify-content: space-between;
+}
+.first{
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 400px;
+  border-color:rgb(253,197,0) !important ;
+  
+}
+.second{
+  width: 700px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+.contact{
+  margin-left: 660px;
+  margin-top: 70px;
+}
+
+.button{
+  margin-left: 1000px !important;
+  width: 100px !important;
+  color: black !important;
+  background-color: rgb(253,197,0) !important;
+  border-style:hidden !important ;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+
+.message{
+  width: 700px !important;
+  margin-left: 400px;
+}
